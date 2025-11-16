@@ -12,10 +12,10 @@ elif month==2 or month==4 or month==6 or month==8 or month==11:
     if day >=1 and day <= 30:
         day_ok = True
 else:
-    if day >= 28
+    if day >= 28:
         day_ok = True
 message = f'Day {day} for the month {month}'
 if day_ok:
     print('{message} is correct')
-else
+else:
     print(f"day number is incorrect")
